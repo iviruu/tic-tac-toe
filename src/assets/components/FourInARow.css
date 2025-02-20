@@ -1,0 +1,64 @@
+/* Contenedor principal */
+.contenedor {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* Título y estado del juego */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.turno, .ganador {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilos del tablero */
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    gap: 5px;
+    background-color: #0077b6;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+/* Estilos de cada celda */
+.celda {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Efecto al pasar el mouse */
+.celda:hover {
+    transform: scale(1.1);
+}
+
+/* Botón de reinicio */
+.reiniciar {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reiniciar:hover {
+    background-color: darkred;
+}

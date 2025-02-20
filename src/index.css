@@ -63,6 +63,11 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+.board .game2 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
 
 .turn {
   display: flex;

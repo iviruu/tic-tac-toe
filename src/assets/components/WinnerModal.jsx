@@ -1,4 +1,4 @@
-import { Square } from "./square"
+import { Square } from "./Square"
 
 
 export function WinnerModal ({winner, resetGame}) {

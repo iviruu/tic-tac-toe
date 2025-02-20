@@ -1,4 +1,4 @@
-
+export const ROW = 9
 
 
 export const TURNS = {
