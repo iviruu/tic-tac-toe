@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import ThreeInARow from './assets/components/ThreeInARow'
-import FourInARow from './assets/components/FourInARow'
+import ThreeInARow from './assets/components/ThreeInARow.jsx'
+import FourInARow from './assets/components/FourInARow.jsx'
 
 
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./FourInARow.css";
-import { WinnerModal } from "./WinnerModal";
+import { WinnerModal } from "./WinnerModal.jsx";
 import confetti from "canvas-confetti";
 
 const FILAS = 6;

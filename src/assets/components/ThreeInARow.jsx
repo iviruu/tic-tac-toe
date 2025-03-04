@@ -1,10 +1,10 @@
 import { useState } from "react"
-import { useBoard, useTurn } from "../hoocks/ThreeInARow"
-import { TURNS } from "../constants"
-import { checkEndGame, checkWinner } from "../logic/board"
+import { useBoard, useTurn } from "../hoocks/ThreeInARow.jsx"
+import { TURNS } from "../constants.js"
+import { checkEndGame, checkWinner } from "../logic/board.jsx"
 import confetti from "canvas-confetti"
-import { Square } from "./Square"
-import { WinnerModal } from "./WinnerModal"
+import { Square } from "./Square.jsx"
+import { WinnerModal } from "./WinnerModal.jsx"
 import "./ThreeInARow.css"
  
  
