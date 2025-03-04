@@ -29,7 +29,7 @@ Un juego de estrategia para dos jugadores en el que los jugadores se turnan para
 2. Navega al directorio del proyecto:
 
    ```bash
-   cd TIC-TAC-TOE
+   cd tic-tac-toe
    ```
 
 3. Instala las dependencias del proyecto:
