@@ -1,8 +1,52 @@
-# React + Vite
+# Juegos de React: Tres en Raya y Cuatro en Línea
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto incluye dos juegos clásicos desarrollados con React y Vite: "Tres en Raya" y "Cuatro en Línea". Ambos juegos permiten guardar el estado en el almacenamiento local del navegador y ofrecen una interfaz de usuario interactiva.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de desarrollo para construir aplicaciones web modernas.
+- **Canvas Confetti**: Biblioteca para mostrar confeti en la pantalla cuando hay un ganador.
+
+## Juegos Incluidos
+
+### Tres en Raya
+
+Un juego clásico donde dos jugadores se turnan para marcar espacios en una cuadrícula de 3x3. El primer jugador en alinear tres de sus marcas en una fila, columna o diagonal gana el juego.
+
+### Cuatro en Línea
+
+Un juego de estrategia para dos jugadores en el que los jugadores se turnan para dejar caer fichas de su color en una cuadrícula de 7 columnas y 6 filas. El objetivo es ser el primero en formar una línea horizontal, vertical o diagonal de cuatro fichas consecutivas.
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local:
+
+   ```bash
+   git clone https://github.com/iviruu/tic-tac-toe.git
+   ```
+
+2. Navega al directorio del proyecto:
+
+   ```bash
+   cd TIC-TAC-TOE
+   ```
+
+3. Instala las dependencias del proyecto:
+
+   ```bash
+   npm install
+   ```
+
+## Uso
+
+Para iniciar el servidor de desarrollo, ejecuta:
+
+```bash
+npm run dev
+```
+
+
+
+
+
