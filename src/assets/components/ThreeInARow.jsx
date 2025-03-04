@@ -5,7 +5,7 @@ import { checkEndGame, checkWinner } from "../logic/board"
 import confetti from "canvas-confetti"
 import { Square } from "./Square"
 import { WinnerModal } from "./WinnerModal"
-
+import "./ThreeInARow.css"
  
  
  
@@ -85,7 +85,7 @@ import { WinnerModal } from "./WinnerModal"
         } )
       }
     </section>
-    <button onClick={resetGame}>Reset del juego</button>
+    <button onClick={resetGame} className="reset"> 🔄 Reiniciar</button>
 
     <WinnerModal winner={winner} resetGame={resetGame}></WinnerModal>
     </main>

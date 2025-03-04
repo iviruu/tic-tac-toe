@@ -26,18 +26,14 @@ function App() {
   
   return (
     <main className='board'>
-      <button style={{color: 'rgb(109,158,235)'}} onClick={changeGame}>Cambiar a 
-      {
-      mode
-      ? <p>  4 en Raya</p>
-      : <p>Tic Tac Toe</p>
-    }
-    </button>
+      <h3 className='title'>Si tocas el logo, cambiaras de juego.</h3>
+    <div className='logo' onClick={changeGame}>
     {
       mode
-      ? <h1> Tic Tac Toe</h1>
-      : <h1>🎲 4 en Raya</h1>
+      ? <h1> Tres en Linia</h1>
+      : <h1>🎲 Quatro en Linia</h1>
     }
+    </div>
     {
       mode
       ? <ThreeInARow/>

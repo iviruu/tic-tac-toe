@@ -88,11 +88,11 @@ export default function FourInARow() {
     };
 
     return (
-        <div className="contenedor">
+        <div className="board">
             {winner ? (
                 <h2 className="ganador">¡{winner} Gana! 🎉</h2>
             ) : (
-                <h2 className="turno">Turno de {turno}</h2>
+                <h2 className="turn">Turno de {turno}</h2>
             )}
             <div className="tablero">
                 {tablero.map((fila, filaIndex) =>
