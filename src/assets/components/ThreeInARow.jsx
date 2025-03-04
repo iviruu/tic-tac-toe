@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useBoard, useTurn } from "../hoocks/ThreeInARow.jsx"
+import { useBoard, useTurn } from "../hooks/threeInARow.jsx"
 import { TURNS } from "../constants.js"
 import { checkEndGame, checkWinner } from "../logic/board.jsx"
 import confetti from "canvas-confetti"
