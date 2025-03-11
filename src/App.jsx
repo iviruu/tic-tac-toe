@@ -26,7 +26,7 @@ function App() {
   
   return (
     <main className='board'>
-      <h3 className='title'>Si tocas el logo, cambiaras de juego.</h3>
+      <h3 className='title'>Si tocas el nombre del juego, cambiaras de juego.</h3>
     <div className='logo' onClick={changeGame}>
     {
       mode
