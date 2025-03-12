@@ -31,7 +31,7 @@ function App() {
     {
       mode
       ? <h1> Tres en Linia</h1>
-      : <h1>🎲 Quatro en Linia</h1>
+      : <h1>🎲 Cuatro en Linia</h1>
     }
     </div>
     {
